@@ -4,7 +4,7 @@
 ##  Client:            {{cookiecutter.client}}
 ##  Project:           {{cookiecutter.project_name}}
 ##  Contact:           {{cookiecutter.full_name}} ({{cookiecutter.full_name}})
-##  Created:           ***TODAYSDATE***
+##  Created:           {{cookiecutter.created_date}}
 ##  Description:       This script contains data exploration code used to
 ##                     audit, understand and visualize available data
 ##  Input Tables:      * <table used in this script>

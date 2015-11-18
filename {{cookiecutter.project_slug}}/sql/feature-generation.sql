@@ -4,7 +4,7 @@
 **  Client:            {{cookiecutter.client}}
 **  Project:           {{cookiecutter.project_name}}
 **  Contact:           {{cookiecutter.full_name}} ({{cookiecutter.full_name}})
-**  Created:           ***TODAYSDATE***
+**  Created:           {{cookiecutter.created_date}}
 **  Description:       This file creates features (independent
 **                     variables) for testing as inputs into the models.
 **                     Note - This file is used for model development in

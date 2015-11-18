@@ -20,6 +20,22 @@ $ cookiecutter https://github.com/jvawdrey/cookiecutter-data-science.git
 ```
 You will be prompted to answer a set of questions which will be used to fill out the boilerplate. Note - Hitting enter will keep the defaults displayed.
 
+```text
+Cloning into 'cookiecutter-data-science'...
+remote: Counting objects: 24, done.
+remote: Compressing objects: 100% (15/15), done.
+remote: Total 24 (delta 9), reused 23 (delta 8), pack-reused 0
+Unpacking objects: 100% (24/24), done.
+Checking connectivity... done.
+full_name [Jarrod Vawdrey]:
+email [jvawdrey@pivotal.io]:
+client [Pivotal]:
+project_name [My Data Science Project]:
+project_slug [my-data-science-project]:
+project_description [Data Science cookiecutter contains all the boilerplate you need to create a Data Science project.]:
+created_date [2015-11-17]: 
+```
+
 Enter project
 ```bash
 $ cd <project name>

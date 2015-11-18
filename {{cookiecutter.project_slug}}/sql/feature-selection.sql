@@ -4,7 +4,7 @@
 **  Client:            {{cookiecutter.client}}
 **  Project:           {{cookiecutter.project_name}}
 **  Contact:           {{cookiecutter.full_name}} ({{cookiecutter.full_name}})
-**  Created:           ***TODAYSDATE***
+**  Created:           {{cookiecutter.created_date}}
 **  Description:       This file contains queries for profiling and selecting
 **                     features (e.g. summary stats, correlations, VIF,
 **                     univariate)
