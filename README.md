@@ -9,7 +9,7 @@ Project Goals
 
 ## Install guide
 
-Get cookiecutter
+Get cookiecutter (first time only)
 ```bash
 $ pip install cookiecutter
 ```
