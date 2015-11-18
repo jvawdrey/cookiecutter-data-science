@@ -170,7 +170,7 @@ $ git branch -f dev
 
 ## Additional notes
 
-* <Insert any additional notes here>
+* *Insert any additional notes here*
 
 ## Contact
 
