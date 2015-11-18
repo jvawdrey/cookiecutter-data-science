@@ -31,10 +31,10 @@ def set_todaysdate(setting_file_location):
     with open(setting_file_location, 'w') as f:
         f.write(file_)
 
-def get_filelist(dirpath):
-    for root, dirs, files in os.walk(os.path.join(PROJECT_DIRECTORY, dirpath), topdown=False):
-      for name in files:
-          if (name)
+#def get_filelist(dirpath):
+#    for root, dirs, files in os.walk(os.path.join(PROJECT_DIRECTORY, dirpath), topdown=False):
+#      for name in files:
+
 
 #if __name__ == '__main__':
     #if '{{ cookiecutter.generate_sql_dir }}' != 'y':
