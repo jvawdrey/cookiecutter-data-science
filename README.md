@@ -37,6 +37,61 @@ $ git add -A
 $ git commit -m "init commit"
 ```
 
+## Repo layout
+
+* **/data:** Utility project data such as mapping tables
+* **/docs:** Project documents including excel files
+* **/img:** Visualizations generated for project
+* **/python:** Python code for project
+* **/prod:** "Operational ready code"
+* **/prod/tests:**  "Tests for prod code"
+* **/r:** R code for project
+* **/sql:** SQL scripts
+  * **/sql/udf-plpgsql:** PL/pgsql user defined functions
+  * **/sql/udf-plpythonu:** PL/pythonu user defined functions
+  * **/sql/udf-plsql:** PL/sql user defined functions
+  * **/sql/udf-plr:** PL/r user defined functions
+* **/tmp:** Temp files (Note - Files in this directory are ignored from Git repo)
+* **/twb:** Tableau workbooks
+
+
+## File descriptions
+
+* **/data:**
+  * <filename>: <description>
+* **/docs:**
+  * <filename>: <description>
+* **/img:**
+  * *Note - Relevant images are documented in related powerpoint presentation in
+    the '/docs' directory*
+* **/python:**
+  * <filename>: <description>
+* **/r:**
+  * data-exploration.R: This code contains data exploration queries used
+    to understand available data for cleaning and feature generation.
+* **/sql:**
+  * data-exploration.sql: This script contains data exploration queries used
+    to understand available data for cleaning and feature generation.
+  * data-preparation.sql:  This script contains table generation queries
+    used to prepare available data for feature generation.
+  * feature-generation.sql: This script creates features (independent
+    variables) for testing as inputs into the models.
+  * feature-selection.sql: This script contains a set of queries which
+    calculate summary statistics, correlations etc. to be used for feature
+    selection.
+  * model-scoring.sql: This script is used to apply model to new data (scoring)
+  * model-update.sql: This script is used to update (retrain) model
+* **/sql/udf-plpgsql:**
+  * <filename>: <description>
+* **/sql/udf-plpythonu:**
+  * <filename>: <description>
+* **/sql/udf-plsql:**
+  * <filename>: <description>
+* **/sql/udf-plr:**
+  * <filename>: <description>
+* **/twb:**
+  * <filename>: <description>
+
 ## Contact
 
 * Jarrod Vawdrey (jvawdrey@pivotal.io)
