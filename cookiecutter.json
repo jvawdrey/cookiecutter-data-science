@@ -1,0 +1,9 @@
+{
+	"full_name": "Jarrod Vawdrey",
+	"email": "jvawdrey@pivotal.io",
+	"client": "Pivotal",
+	"project_name": "My Data Science Project",
+	"project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '-') }}",
+	"project_description": "Data Science cookiecutter contains all the boilerplate you need to create a Data Science project.",
+	"created_date": "2015-11-17"
+}
