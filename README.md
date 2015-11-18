@@ -59,6 +59,7 @@ $ git commit -m "init commit"
 * **/docs:** Project documents including excel files
 * **/img:** Visualizations generated for project
 * **/python:** Python code for project
+  * **/python/notebooks:** Python notebook code
 * **/prod:** "Operational ready code"
 * **/prod/tests:**  "Tests for prod code"
 * **/r:** R code for project
