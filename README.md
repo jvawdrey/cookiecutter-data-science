@@ -33,7 +33,7 @@ client [Pivotal]:
 project_name [My Data Science Project]:
 project_slug [my-data-science-project]:
 project_description [Data Science cookiecutter contains all the boilerplate you need to create a Data Science project.]:
-created_date [2015-11-17]: 
+created_date [2015-11-17]:
 ```
 
 Enter project
@@ -74,14 +74,14 @@ $ git commit -m "init commit"
 ## File descriptions
 
 * **/data:**
-  * <filename>: <description>
+  * *filename: description*
 * **/docs:**
-  * <filename>: <description>
+  * *filename: description*
 * **/img:**
   * *Note - Relevant images are documented in related powerpoint presentation in
     the '/docs' directory*
 * **/python:**
-  * <filename>: <description>
+  * *filename: description*
 * **/r:**
   * data-exploration.R: This code contains data exploration queries used
     to understand available data for cleaning and feature generation.
@@ -98,15 +98,15 @@ $ git commit -m "init commit"
   * model-scoring.sql: This script is used to apply model to new data (scoring)
   * model-update.sql: This script is used to update (retrain) model
 * **/sql/udf-plpgsql:**
-  * <filename>: <description>
+  * *filename: description*
 * **/sql/udf-plpythonu:**
-  * <filename>: <description>
+  * *filename: description*
 * **/sql/udf-plsql:**
-  * <filename>: <description>
+  * *filename: description*
 * **/sql/udf-plr:**
-  * <filename>: <description>
+  * *filename: description*
 * **/twb:**
-  * <filename>: <description>
+  * *filename: description*
 
 ## Contact
 
