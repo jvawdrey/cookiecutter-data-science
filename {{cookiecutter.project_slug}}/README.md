@@ -96,7 +96,6 @@ $ git branch -f dev
 
 ```
 
-
 ## Repo layout
 
 * **/data:** Utility project data such as mapping tables
@@ -118,16 +117,17 @@ $ git branch -f dev
 ## File descriptions
 
 * **/data:**
-  * <filename>: <description>
+  * *filename: description*
 * **/docs:**
-  * <filename>: <description>
+  * *filename: description*
 * **/img:**
   * *Note - Relevant images are documented in related powerpoint presentation in
     the '/docs' directory*
 * **/python:**
-  * <filename>: <description>
+  * *filename: description*
 * **/r:**
-  * <filename>: <description>
+  * data-exploration.R: This code contains data exploration queries used
+    to understand available data for cleaning and feature generation.
 * **/sql:**
   * data-exploration.sql: This script contains data exploration queries used
     to understand available data for cleaning and feature generation.
@@ -141,31 +141,31 @@ $ git branch -f dev
   * model-scoring.sql: This script is used to apply model to new data (scoring)
   * model-update.sql: This script is used to update (retrain) model
 * **/sql/udf-plpgsql:**
-  * <filename>: <description>
+  * *filename: description*
 * **/sql/udf-plpythonu:**
-  * <filename>: <description>
+  * *filename: description*
 * **/sql/udf-plsql:**
-  * <filename>: <description>
+  * *filename: description*
 * **/sql/udf-plr:**
-  * <filename>: <description>
+  * *filename: description*
 * **/twb:**
-  * <filename>: <description>
+  * *filename: description*
 
 
 ## Steps to score (apply models) to new data
 
-1. <Enter step here>
-2. <Enter step here>
-3. <Enter step here>
-4. <Enter step here>
+1. *Enter step here*
+2. *Enter step here*
+3. *Enter step here*
+4. *Enter step here*
 
 
 ## Steps to update (retrain) models
 
-1. <Enter step here>
-2. <Enter step here>
-3. <Enter step here>
-4. <Enter step here>
+1. *Enter step here*
+2. *Enter step here*
+3. *Enter step here*
+4. *Enter step here*
 
 
 ## Additional notes
