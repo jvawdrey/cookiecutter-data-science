@@ -2,8 +2,6 @@
 
 {{cookiecutter.project_description}}
 
-{{cookiecutter}}
-
 
 ## Environment
 
