@@ -139,6 +139,7 @@ $ git branch -f dev
   * feature-selection.sql: This script contains a set of queries which
     calculate summary statistics, correlations etc. to be used for feature
     selection.
+  * model-training.sql: This script is used to build (train) the model
   * model-scoring.sql: This script is used to apply model to new data (scoring)
   * model-update.sql: This script is used to update (retrain) model
 * **/sql/udf-plpgsql:**

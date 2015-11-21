@@ -8,6 +8,7 @@
 **  Description:       This file is used to update (retrain) an existing model.
 **  Input Tables:      * <table used in this script>
 **                     * <table used in this script>
-**  Output Table:      * N/A (Ideally data exploration should not create tables)
+**  Output Table:      * <output table>
+**                     * <output table>
 **
 *******************************************************************************/

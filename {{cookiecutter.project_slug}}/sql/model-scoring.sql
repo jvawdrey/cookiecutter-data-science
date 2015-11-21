@@ -9,6 +9,7 @@
 **                     model.
 **  Input Tables:      * <table used in this script>
 **                     * <table used in this script>
-**  Output Table:      * N/A (Ideally data exploration should not create tables)
+**  Output Table:      * <output table>
+**                     * <output table>
 **
 *******************************************************************************/
