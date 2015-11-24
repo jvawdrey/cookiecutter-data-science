@@ -1,6 +1,6 @@
 /*******************************************************************************
 **
-**  Filename:          model-training.sql
+**  Filename:          model-development.sql
 **  Client:            {{cookiecutter.client}}
 **  Project:           {{cookiecutter.project_name}}
 **  Contact:           {{cookiecutter.full_name}} ({{cookiecutter.full_name}})
