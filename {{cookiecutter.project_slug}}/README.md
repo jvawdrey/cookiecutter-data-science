@@ -130,8 +130,9 @@ $ git branch -f dev
   * data-exploration.R: This code contains data exploration queries used
     to understand available data for cleaning and feature generation.
 * **/sql:**
-  * data-exploration.sql: This script contains data exploration queries used
-    to understand available data for cleaning and feature generation.
+  * data-exploration.sql: This file contains data exploration queries used to
+    audit and understand available data in addition to determining correct data
+    preparation logic
   * data-preparation.sql:  This script contains table generation queries
     used to prepare available data for feature generation.
   * feature-generation.sql: This script creates features (independent

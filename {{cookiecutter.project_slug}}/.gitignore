@@ -33,3 +33,7 @@ local.properties
 .c9/
 data/
 mongod
+
+# Python
+# ======
+*.pyc

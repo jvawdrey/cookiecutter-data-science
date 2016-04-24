@@ -6,7 +6,8 @@
 **  Contact:           {{cookiecutter.full_name}} ({{cookiecutter.full_name}})
 **  Created:           {{cookiecutter.created_date}}
 **  Description:       This file contains data exploration queries used to
-**                     audit and understand available data
+**                     audit and understand available data in addition to
+**                     determining correct data preparation logic
 **  Input Tables:      * <table used in this script>
 **                     * <table used in this script>
 **  Output Table:      * N/A (Ideally data exploration should not create tables)
